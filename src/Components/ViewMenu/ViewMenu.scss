@@ -1,0 +1,19 @@
+.view-menu{
+    padding-bottom: 40px;
+    border-bottom: 1px solid #a79258;
+    p{
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    &__button-conteiner{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+@media(max-width:430px) {
+    .view-menu{
+        border-bottom: none;
+    }
+}

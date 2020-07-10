@@ -1,0 +1,41 @@
+.check {
+    font-size: 16px;
+    &:nth-child(7){
+        border-bottom: 1px solid #a79258;
+    }
+    p{
+        margin: 0;
+        flex-basis: 40%;
+    }
+    img {
+        width: 25px;
+        height: 25px;
+        &.checked{
+            color: red;
+        }
+    }
+
+    &--conteiner {
+        display: flex;
+        justify-content: space-around;  
+        margin-bottom: 10px;
+    }
+    /* input{
+        display: none;
+        position: relative;
+   
+    } */
+   /*  label{
+        position: relative;
+        &::after{
+            position: absolute;
+            content: "";
+            right: 10px;
+            top: 5px;
+            width: 10px;
+            height: 10px;
+            border: 1px solid #a79258;
+        }
+    } */
+    
+}

@@ -1,0 +1,35 @@
+.game-set{
+    width: 75%;
+    padding-left: 30px;
+    box-sizing: border-box;
+    .game-set__conteiner{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        width: 850px;
+        min-width: 800px;
+        transition-property: width;
+        transition-duration: 300ms;
+    }
+}
+
+.game-toolbar{
+    display: flex;
+    justify-content: center;
+}
+
+@media(max-width:430px) {
+    .game-set{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        
+        .game-set__conteiner{
+           width: 100%;
+           min-width: 100%;
+           display: flex;
+           justify-content: space-around;
+       
+        }
+    }
+  }

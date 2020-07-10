@@ -1,0 +1,33 @@
+.cardName {
+    position: relative;
+    width: fit-content;
+    
+
+    &:hover {
+        .img {
+            display: block;
+        }
+    }
+
+    p {
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+        color: #a79258;
+        margin: 0;
+        margin-bottom: 7px;
+        &:hover {
+            color: white;
+        }
+    }
+
+    img {
+        position: absolute;
+        width: 150px;
+        height: 244px;
+        display: none;
+        z-index: 50;
+        right: -160px;
+        top: -20px;
+    }
+}
