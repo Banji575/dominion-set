@@ -1,1 +1,1 @@
-Randomizer and advaced analytics cards set for Dominion board game in reactjs. Source repository.
+Randomizer and advanced analytics cards set for Dominion board game on reactjs.
